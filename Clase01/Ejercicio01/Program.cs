@@ -17,9 +17,12 @@ namespace Ejercicio01
              * ¿Cuanto cuesta la compra total? 
              */
 
+            //Variables
             double kgManzana = 2;
             double kgPeras = 1.5;
             double proporcionEuroKg = 0.99;
+
+            //OutPut
             Console.WriteLine("La compra cuesta: " + (kgManzana * proporcionEuroKg + kgPeras * proporcionEuroKg));
             Console.ReadKey();
 
