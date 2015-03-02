@@ -7,7 +7,7 @@
     <ProjectGuid>{06BCE378-3F1B-44DF-AAE6-DCCEF368966D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EjerciciosClase1</RootNamespace>
+    <RootNamespace>Ejercicio04</RootNamespace>
     <AssemblyName>Ejercicio05</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -46,6 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ejercicio04\Ejercicio04.csproj">
+      <Project>{24557645-dbdf-4096-8149-d20aebd41cb4}</Project>
+      <Name>Ejercicio04</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

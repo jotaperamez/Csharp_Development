@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace EjerciciosClase1
+namespace Ejercicio04
 {
      public class Program
     {
@@ -33,6 +33,12 @@ namespace EjerciciosClase1
             
 
         }
+           public Program(string segundos)
+           {
+
+               parseSeconds(segundos);
+
+           }
         //Metodo que devuelve los segundo parseados a Hora:Minutos:Segundos
         //No controla excepciones.
         public static string parseSeconds(string toParse)

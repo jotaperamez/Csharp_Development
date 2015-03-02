@@ -7,7 +7,7 @@
     <ProjectGuid>{24557645-DBDF-4096-8149-D20AEBD41CB4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EjerciciosClase1</RootNamespace>
+    <RootNamespace>Ejercicio04</RootNamespace>
     <AssemblyName>Ejercicio04</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
