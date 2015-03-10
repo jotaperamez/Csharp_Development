@@ -48,6 +48,7 @@ namespace Ejercicio04
             string horas = tiempo.Hours.ToString();
             string minutos = tiempo.Minutes.ToString();
             string segundos = tiempo.Seconds.ToString();
+            
             string formatoHora = string.Format("{0:D2}:{1:D2}:{2:D2}", tiempo.Hours, tiempo.Minutes, tiempo.Seconds);
 
                 return formatoHora;
