@@ -16,7 +16,7 @@ namespace EjemploWhere
             // Simple query with one predicate in where clause.
             var queryLowNums =
                 from num in numbers
-                where num < 5
+                where num < 5 || num > 7
                 select num;
 
             // Execute the query.
